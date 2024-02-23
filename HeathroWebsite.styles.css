@@ -1,0 +1,423 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-36h2xk5fl8] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-36h2xk5fl8] {
+    flex: 1;
+}
+
+.sidebar[b-36h2xk5fl8] {
+    background-image: linear-gradient(45deg, #7B44F2 0%, #550CF2 70%);
+}
+
+.top-row[b-36h2xk5fl8] {
+    background-color: #32088C;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-36h2xk5fl8]  a, .top-row[b-36h2xk5fl8]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-36h2xk5fl8]  a:hover, .top-row[b-36h2xk5fl8]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-36h2xk5fl8]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-36h2xk5fl8] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-36h2xk5fl8]  a, .top-row[b-36h2xk5fl8]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-36h2xk5fl8] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-36h2xk5fl8] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-36h2xk5fl8] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-36h2xk5fl8]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-36h2xk5fl8], article[b-36h2xk5fl8] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-sfl5squua2] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-sfl5squua2] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-sfl5squua2] {
+    font-size: 1.1rem;
+}
+
+.nav-item[b-sfl5squua2] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-sfl5squua2] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-sfl5squua2] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-sfl5squua2]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-sfl5squua2]  a.active {
+    background-color: rgba(255,255,255,0.37);
+    color: white;
+}
+
+.nav-item[b-sfl5squua2]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.nav-parent-item[b-sfl5squua2] {
+    font-size: 0.9rem;
+    padding-bottom: 0.1rem;
+}
+
+    .nav-parent-item[b-sfl5squua2]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 1.5rem;
+        display: flex;
+        align-items: center;
+        line-height: 1.5rem;
+    }
+
+.nav-child-item[b-sfl5squua2] {
+    font-size: 0.9rem;
+    padding-bottom: 0.1rem;
+}
+
+    .nav-child-item[b-sfl5squua2]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 1.5rem;
+        display: flex;
+        align-items: center;
+        line-height: 1.5rem;
+    }
+
+        .nav-child-item[b-sfl5squua2]  a.active {
+            background-color: rgba(255,255,255,0.37);
+            color: white;
+        }
+
+        .nav-child-item[b-sfl5squua2]  a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-sfl5squua2] {
+        display: none;
+    }
+
+    .collapse[b-sfl5squua2] {
+        display: block;
+    }
+    
+    .nav-scrollable[b-sfl5squua2] {
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
+/* /Pages/CarInfoUK.razor.rz.scp.css */
+.screenshot[b-c9ujn8r4fz] {
+    max-width: 768px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container[b-c9ujn8r4fz] {
+    max-width: 633px;
+}
+
+.description[b-c9ujn8r4fz] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1066px) {
+    .screenshot[b-c9ujn8r4fz] {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container[b-c9ujn8r4fz] {
+        max-width: 100%;
+    }
+}
+/* /Pages/Contacts.razor.rz.scp.css */
+.container[b-4pxmimdc1q] {
+    max-width: 525px;
+}
+
+.title[b-4pxmimdc1q] {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.icons-grid[b-4pxmimdc1q] {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+    gap: 20px;
+}
+
+.icon[b-4pxmimdc1q] {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+    .container[b-4pxmimdc1q] {
+        max-width: 100%;
+    }
+    .icons-grid[b-4pxmimdc1q] {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* /Pages/Dungeon.razor.rz.scp.css */
+.trailer[b-5xj3ofzmq4] {
+    width: 768px;
+    height: 432px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container[b-5xj3ofzmq4] {
+    max-width: 633px;
+}
+
+.description[b-5xj3ofzmq4] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1066px) {
+    .trailer[b-5xj3ofzmq4] {
+        max-width: 100%;
+        max-height: calc((100vw - 48px) / 1.78);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container[b-5xj3ofzmq4] {
+        max-width: 100%;
+    }
+}
+/* /Pages/GameHub.razor.rz.scp.css */
+.screenshot[b-fw1b63ruvd] {
+    max-width: 768px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container[b-fw1b63ruvd] {
+    max-width: 633px;
+}
+
+.description[b-fw1b63ruvd] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1066px) {
+    .screenshot[b-fw1b63ruvd] {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container[b-fw1b63ruvd] {
+        max-width: 100%;
+    }
+}
+/* /Pages/Home.razor.rz.scp.css */
+.avatar[b-77cfjeo2ng] {
+    max-width: 633px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.container[b-77cfjeo2ng] {
+    max-width: 633px;
+}
+
+.greeting[b-77cfjeo2ng] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.description[b-77cfjeo2ng] {
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 950px) {
+    .avatar[b-77cfjeo2ng] {
+        max-width: 100%;
+    }
+    .container[b-77cfjeo2ng] {
+        max-width: 100%;
+    }
+}
+/* /Pages/Lost.razor.rz.scp.css */
+.trailer[b-79hj6q5rrz] {
+    width: 768px;
+    height: 432px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container[b-79hj6q5rrz] {
+    max-width: 633px;
+}
+
+.description[b-79hj6q5rrz] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1066px) {
+    .trailer[b-79hj6q5rrz] {
+        max-width: 100%;
+        max-height: calc((100vw - 48px) / 1.78);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container[b-79hj6q5rrz] {
+        max-width: 100%;
+    }
+}
+/* /Pages/LuckyYou.razor.rz.scp.css */
+.screenshot[b-cuubdo7ums] {
+    max-width: 768px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container[b-cuubdo7ums] {
+    max-width: 633px;
+}
+
+.description[b-cuubdo7ums] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1066px) {
+    .screenshot[b-cuubdo7ums] {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container[b-cuubdo7ums] {
+        max-width: 100%;
+    }
+}
+/* /Pages/Website.razor.rz.scp.css */
+.container[b-qz30gkha50] {
+    max-width: 633px;
+}
+
+.description[b-qz30gkha50] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 633px) {
+    .container[b-qz30gkha50] {
+        max-width: 100%;
+    }
+}
