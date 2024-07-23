@@ -274,6 +274,37 @@ main[b-36h2xk5fl8] {
         max-width: 100%;
     }
 }
+/* /Pages/FashionPlace.razor.rz.scp.css */
+.screenshot[b-yw1rm7j5mi] {
+    max-width: 768px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container[b-yw1rm7j5mi] {
+    max-width: 633px;
+}
+
+.description[b-yw1rm7j5mi] {
+    margin-top: 2rem;
+    text-align: left;
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1066px) {
+    .screenshot[b-yw1rm7j5mi] {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container[b-yw1rm7j5mi] {
+        max-width: 100%;
+    }
+}
 /* /Pages/GameHub.razor.rz.scp.css */
 .screenshot[b-fw1b63ruvd] {
     max-width: 768px;
